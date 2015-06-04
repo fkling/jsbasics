@@ -1,0 +1,22 @@
+{
+  "exerslide": {
+    "styles": [
+      "./css/style.css"
+    ],
+    "meta": {
+      "title": "JavaScript Basics"
+    }
+  },
+  "name": "jsbasics",
+  "version": "1.0.0",
+  "description": "An interactive covering the basic and most important topics of JavaScript",
+  "author": "Felix Kling",
+  "license": "MIT",
+  "dependencies": {
+    "exerslide": "file:../exerslide"
+  },
+  "scripts": {
+    "build": "exerslide ./slides",
+    "watch": "exerslide ./slides -w"
+  }
+}

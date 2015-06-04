@@ -1,0 +1,8 @@
+.alert {
+  margin-top: 20px;
+}
+
+.CodeMirror {
+  font-family: source;
+  height: 350px;
+}
