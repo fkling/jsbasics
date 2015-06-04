@@ -43,8 +43,10 @@
 }
 
 #toc > .chapter > .title {
-  font-size: 1em;
+  color: #666;
+  font-size: 0.9em;
   font-weight: normal;
+  margin-top: 2px;
   text-align: center;
 }
 

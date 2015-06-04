@@ -1,15 +1,20 @@
+body {
+  color: #444;
+}
+
+h1 {
+  color: #444;
+  font-size: 400%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 #slide {
   top: 80px;
   margin: auto;
   left: 0;
   padding-top: 0;
   position: relative;
-}
-
-h1 {
-  text-align: center;
-  font-size: 400%;
-  margin-bottom: 50px;
 }
 
 .alert {
