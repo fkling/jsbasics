@@ -11,6 +11,13 @@ You should use Google Chrome and make yourself
 familiar with the [developer tools][], especially with the console.
 You will need it for the exercises.
 
-<script type="text" data-type="text" data-markdown>
+---
+
+### Contribute
+
+Found a problem with style or content? Or do you have suggestions for improving
+the content?  
+Please [file an issue on GitHub][github].
 
 [developer tools]:  https://developers.google.com/chrome-developer-tools/docs/javascript-debugging
+[github]: https://github.com/fkling/jsbasics/issues
