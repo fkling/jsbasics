@@ -14,7 +14,7 @@
   "author": "Felix Kling",
   "license": "MIT",
   "dependencies": {
-    "exerslide": "file:../exerslide"
+    "exerslide": "fkling/exerslide"
   },
   "scripts": {
     "build": "exerslide ./slides",

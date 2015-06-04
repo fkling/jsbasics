@@ -1,8 +1,9 @@
 #slide {
-  position: relative;
   top: 80px;
   margin: auto;
   left: 0;
+  padding-top: 0;
+  position: relative;
 }
 
 h1 {
@@ -17,5 +18,5 @@ h1 {
 
 .CodeMirror {
   font-family: source;
-  height: 350px;
+  font-size: 0.8em;
 }

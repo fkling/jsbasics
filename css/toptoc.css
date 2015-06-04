@@ -1,10 +1,12 @@
 #toc {
+  background-color: white;
   padding: 10px 0 0 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   height: auto;
   width: 100vw;
+  z-index: 10;
 }
 
 #toc::before {
@@ -22,6 +24,10 @@
 #toc li {
   list-style: none;
   margin: 0;
+  padding: 0;
+}
+
+#toc .slides {
   padding: 0;
 }
 
