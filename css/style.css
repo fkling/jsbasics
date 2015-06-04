@@ -1,3 +1,16 @@
+#slide {
+  position: relative;
+  top: 80px;
+  margin: auto;
+  left: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 400%;
+  margin-bottom: 50px;
+}
+
 .alert {
   margin-top: 20px;
 }

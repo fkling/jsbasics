@@ -1,5 +1,5 @@
-toc: Intro
-chapter: JavaScript Basics
+toc: JavaScript Basics
+chapter: Intro
 ---
 # JavaScript basics
 

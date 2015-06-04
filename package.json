@@ -1,6 +1,7 @@
 {
   "exerslide": {
     "styles": [
+      "./css/toptoc.css",
       "./css/style.css"
     ],
     "meta": {
