@@ -1,7 +1,7 @@
 toc: JavaScript Basics
 chapter: Intro
 ---
-# JavaScript basics
+# JavaScript Basics
 
 A quick introduction to basic and important concepts of JavaScript
 
