@@ -1,3 +1,4 @@
+---
 title: Scope
 chapter: Scope
 ---

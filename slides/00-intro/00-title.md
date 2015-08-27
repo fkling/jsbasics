@@ -1,5 +1,17 @@
-toc: JavaScript Basics
+---
+toc: Title
 chapter: Intro
+layout: Center
+style: |
+  #slide .Center-wrapper {
+    text-align: left;
+  }
+  #slide h1 {
+    color: #444;
+    font-size: 400%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
 ---
 # JavaScript Basics
 

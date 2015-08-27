@@ -1,3 +1,4 @@
+---
 title: Objects
 ---
 Everything else besides primitive data type values is an **object**.
@@ -17,4 +18,4 @@ The JavaScript standard defines a couple of [built-in objects][] with additional
 properties and specific internal behavior, must notably *arrays* and
 *functions*, which are explained in the next slide.
 
-[built-in objects]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Predefined_Core_Objects
+[built-in objects]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects

@@ -1,27 +1,122 @@
 body {
-  color: #444;
+  font-family: Helvetica, sans-serif;
+  color: #333;
+  background-color: #FAFAFA;
 }
 
-h1 {
-  color: #444;
-  font-size: 400%;
-  margin-bottom: 50px;
-  text-align: center;
+#loader {
+  display: flex;
+  font-size: 4em;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
+
+/* helper */
+.flex {
+  display: flex;
+}
+.flex-column {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.flex-item-fix {
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+/* CODE */
+code {
+  color: inherit;
+}
+
+pre {
+  border: none;
+  border-left: 3px solid #E3E3E3;
+  border-radius: 0;
+  font-size: 0.8em;
+}
+
+#page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+/* MAIN CONTENT */
 
 #slide {
-  top: 80px;
-  margin: auto;
-  left: 0;
-  padding-top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  font-size: 130%;
+  font-weight: 100;
+  overflow-y: auto;
+  padding: 20px;
   position: relative;
+  width: 100%;
 }
 
-.alert {
-  margin-top: 20px;
+#slide > * {
+  width: 100%;
+  max-width: 800px;
 }
 
-.CodeMirror {
-  font-family: source;
-  font-size: 0.8em;
+#slide > #slide-title {
+  margin: 20px 0;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+#slide > #slide-title:focus {
+  outline: none;
+}
+
+#slide h1 {
+  font-size: 1.6em;
+}
+
+#slide h2 {
+  font-size: 1.3em;
+}
+
+#slide h3 {
+  font-size: 1.1em;
+}
+
+#slide h3 {
+  font-size: 1.1em;
+}
+
+#slide h2,
+#slide h3 {
+  margin: 1.1em 0 0.8em 0;
+}
+
+#slide p {
+  line-height: 1.5em;
+}
+
+/* This ensures that embedded images are scaled down to the width of the main
+ * column.
+ */
+#slide img {
+  max-width: 100%;
+}
+
+/* DEBUG information */
+
+.__exerslide__file_path {
+  background-color: #EEE;
+  font-size: 110%;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
 }

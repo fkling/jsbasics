@@ -1,7 +1,12 @@
+---
 toc: this
 chapter: this
+style: |
+  h1 {
+    text-align: center
+  }
 ---
-## `this`
+# `this`
 
 [**`this`**][mdn] is a special "variable" which implicitly exists in every
 function. It can be thought of being similar to Java's `this` and Python's

@@ -1,6 +1,6 @@
+---
 title: What this presentation is <strong>not</strong> about
 toc: What this presentation is not about
-single: true
 ---
 JavaScript is predominantly run in browsers to make websites interactive. In
 order to do that, the browser provides access to other technologies, such as

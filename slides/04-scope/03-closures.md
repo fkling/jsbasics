@@ -1,3 +1,4 @@
+---
 title: Closures
 ---
 [Wikipedia describes closures as][closures]:

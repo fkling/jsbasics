@@ -1,23 +1,44 @@
 {
-  "exerslide": {
-    "styles": [
-      "./css/toptoc.css",
-      "./css/style.css"
-    ],
-    "meta": {
-      "title": "JavaScript Basics"
-    }
-  },
-  "name": "jsbasics",
+  "name": "",
   "version": "1.0.0",
-  "description": "An interactive covering the basic and most important topics of JavaScript",
-  "author": "Felix Kling",
-  "license": "MIT",
-  "dependencies": {
-    "exerslide": "fkling/exerslide"
-  },
+  "description": "",
+  "private": true,
   "scripts": {
-    "build": "exerslide ./slides",
-    "watch": "exerslide ./slides -w"
+    "build": "exerslide build slides/ -o out/",
+    "watch": "exerslide build slides/ --watch -o out/",
+    "server": "exerslide build slides/ --serve -o out/"
+  },
+  "exerslide": {
+    "masterLayoutPath": "components/MasterLayout.js",
+    "slideLayoutPaths": [
+      "layouts/"
+    ],
+    "styleSheets": [
+      "node_modules/bootstrap/dist/css/bootstrap.min.css",
+      "node_modules/font-awesome/css/font-awesome.min.css",
+      "node_modules/exerslide/node_modules/highlight.js/styles/solarized_light.css",
+      "css/style.css",
+      "./css/toptoc.css"
+    ],
+    "fileTypeToLayoutMap": {
+      ".md": "Markdown",
+      ".js": "JavaScriptExercise"
+    },
+    "staticFilePaths": {
+      "node_modules/font-awesome/fonts/**/*": "fonts/",
+      "statics/index.html": "",
+      "statics/**/*": "statics/"
+    },
+    "keyMapPath": "js/keyMap.js"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.5.6",
+    "bootstrap": "^3.3.5",
+    "browser-sync": "^2.8.2",
+    "chai": "^3.2.0",
+    "classnames": "^2.1.1",
+    "exerslide": "~1.0.0",
+    "font-awesome": "^4.4.0",
+    "react": "^0.13.2"
   }
 }

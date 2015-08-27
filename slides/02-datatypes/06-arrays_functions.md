@@ -1,5 +1,7 @@
+---
 title: "Built-in objects: Arrays and functions"
 ---
+
 **Arrays** are objects, which treat properties with numeric keys (i.e. `0`,
 `1`, `2`, ...) in a special way. For all purposes, they behave like arrays in
 other languages.

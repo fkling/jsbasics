@@ -1,3 +1,4 @@
+---
 title: Function definitions
 ---
 There are two syntactic constructs to create functions: function **declaration**

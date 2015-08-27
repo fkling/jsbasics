@@ -1,5 +1,7 @@
+---
 title: Comparison operators
 ---
+
 As already established at the beginning, JavaScript is **dynamically** typed. It
 also performs **type conversion**, if a specific data type is expected and not
 provided. For example in `a * b`, the values of `a` and `b` will be converted
@@ -53,11 +55,16 @@ if (a == 0) {
 }
 ```
 
+Have a look at [this table][comparison table] to get a quick overview of the 
+differences between `==` and `===`.
+
 <div class="alert alert-warning">
-<strong>You should <em>always</em> use strict comparison</strong>, unless you
+**You should *always* use strict comparison**, unless you
 explicitly want to make use of the type conversion (i.e. you know what you are
 doing).
-<br>
+
 If you write an API, make it clear which data type it expects (e.g. through
 comments).
 </div>
+
+[comparison table]: https://dorey.github.io/JavaScript-Equality-Table/

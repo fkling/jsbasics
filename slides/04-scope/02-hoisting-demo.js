@@ -1,7 +1,9 @@
+---
 title: Demo
-description:
-  Which value does this code log and why? Think about the answer *before* you
-  run the code.
+layoutData:
+  description:
+    Which value does this code log and why? Think about the answer *before* you
+    run the code.
 ---
 var bar = 42;
 function foo() {

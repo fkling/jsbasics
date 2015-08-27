@@ -1,3 +1,4 @@
+---
 title: Property access
 ---
 Properties of objects can be accessed in two ways:

@@ -1,6 +1,11 @@
-toc: "ES6's class declarations"
 ---
-## Syntactic sugar: ES6's `class` declarations
+toc: "ES6's class declarations"
+style: |
+  h1 {
+    text-align: center
+  }
+---
+# Syntactic sugar: ES6's `class` declarations
 Setting up more complex constructor functions with their prototypes can be
 cumbersome. For that reason the next version of JavaScript (ECMAScript 6)
 [introduces a new syntax][classes].

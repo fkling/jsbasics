@@ -1,11 +1,12 @@
+---
 title: Booleans, numbers and strings
 ---
 
 The **Boolean** data type has two values, `true` and `false`.
 
 ---
-**Numbers** are [double precision floating point](http://en.wikipedia.org/wiki/Double-precision_floating-point_format)
-numbers, following the [IEEE 754 standard](http://en.wikipedia.org/wiki/IEEE_floating_point).
+**Numbers** are [double precision floating point][float] numbers, following the
+[IEEE 754 standard][ieee754]
 
 This makes it very easy to work them, since you don't have to differentiate between
 integer values and floating point values.
@@ -30,3 +31,6 @@ Example:
 var foo = "bar";
 var bar = 'baz';
 ```
+
+[float]: http://en.wikipedia.org/wiki/Double-precision_floating-point_format 
+[ieee754]: http://en.wikipedia.org/wiki/IEEE_floating_point

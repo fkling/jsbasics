@@ -1,6 +1,11 @@
-toc: this - another example
 ---
-## `this` - another example
+toc: this - another example
+style: |
+  h1 {
+    text-align: center
+  }
+---
+# `this` - another example
 
 ```js
 function say() {

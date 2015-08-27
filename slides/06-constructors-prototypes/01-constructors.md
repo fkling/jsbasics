@@ -1,3 +1,4 @@
+---
 title: Constructor functions
 ---
 Even though JavaScript technically doesn't have classes, it has something
