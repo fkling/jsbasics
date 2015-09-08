@@ -24,8 +24,8 @@ var sarah = {
 
 felix.sayName(); // My name is Felix
 sarah.sayName(); // My name is Sarah
-foo.call({name: 'Anonymous'}); // My name is Anonymous
-foo(); // My names is undefined
+say.call({name: 'Anonymous'}); // My name is Anonymous
+say(); // My names is undefined
 ```
 
 In this example we define a single a function that uses `this` internally. The
