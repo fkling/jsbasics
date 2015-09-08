@@ -6,7 +6,8 @@
   "scripts": {
     "build": "exerslide build slides/ -o out/",
     "watch": "exerslide build slides/ --watch -o out/",
-    "server": "exerslide build slides/ --serve -o out/"
+    "server": "exerslide build slides/ --serve -o out/",
+    "push": "./scripts/push-site.sh"
   },
   "exerslide": {
     "masterLayoutPath": "components/MasterLayout.js",
