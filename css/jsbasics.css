@@ -1,0 +1,50 @@
+hr {
+  border-color: #eee
+}
+
+#exerslide-slide h1 {
+  margin-bottom: 1rem;
+}
+
+#exerslide-slide p {
+  line-height: 1.5;
+}
+
+.button {
+  padding: 0.5rem;
+}
+
+.button.secondary {
+  background-color: transparent;
+  color: black;
+  border: 1px solid #ddd;
+}
+
+
+.button.secondary:focus,
+.button.secondary:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.exerslide-toc-entry.JavascriptExercise.completed:after {
+  font-family: FontAwesome;
+  content: "\F00C";
+  display: inline-block;
+  padding-left: 5px;
+  color: #3adb76;
+  font-size: 0.9rem;
+}
+
+.BabelEditor .CodeMirror {
+  height: auto;
+}
+
+#exerslide-toc-list {
+  font-size: 90%;
+}
+
+.exerslide-toc-container {
+  max-width: 30%;
+  min-width: 20em;
+}

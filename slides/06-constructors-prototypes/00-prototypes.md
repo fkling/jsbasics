@@ -14,7 +14,7 @@ itself, it is searched for in the object's prototype chain.
 
 Simple example:
 
-```js
+```javascript
 var foo = {answer: 42};
 // Creates a new object `bar` whose prototype is `foo`
 var bar = Object.create(foo);

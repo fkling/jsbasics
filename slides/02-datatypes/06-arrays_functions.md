@@ -8,7 +8,7 @@ other languages.
 
 JavaScript has a special syntax for creating arrays, `[value, value, ...]`:
 
-```
+```javascript
 var arr = [1, 2];
 ```
 
@@ -17,7 +17,7 @@ var arr = [1, 2];
 **Functions** are the only kind of objects that are *callable*, and JavaScript
 also has a special syntax for defining them:
 
-```
+```javascript
 function foo() {
   console.log("I'm a function");
 }

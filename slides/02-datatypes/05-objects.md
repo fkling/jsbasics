@@ -8,7 +8,7 @@ strings can be used as keys. The "keys" of an object are called *properties*.
 
 The syntax to create a plain object is `{key: value, ...}`. For example:
 
-```
+```javascript
 var obj = {
   foo: 'bar',
   baz: 42

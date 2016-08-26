@@ -8,9 +8,10 @@ unary, and written in infix notation, i.e. `a op b`.
 
 Here is list of typical operations:
 
-- **Assignment**: `foo = bar`, assigns the value of the lhs to the rhs.
+- **Assignment**: `foo = bar`, assigns the value of the <abbr title="Left Hand 
+Side">lhs</abbr> to the <abbr title="Right Hand Side">shs</abbr>.
 
-- **Math**: `a + b`, `a - b`, `a * b`, ... math :)
+- **Math**: `a + b`, `a - b`, `a * b`, `a / b`
 
 - **String concatenation:** `a + b`
 

@@ -9,7 +9,7 @@ Variables can be declared **without an initial value**.
 
 Some example declarations:
 
-```js
+```javascript
 var foo;
 var bar = 42;
 var foo, bar, baz;
@@ -24,7 +24,7 @@ in a syntax error.
 
 Examples:
 
-```js
+```javascript
 var π = 3.141;
 var _foo = π;
 var 0_bar = '...'; // Syntax error
@@ -34,7 +34,7 @@ var 0_bar = '...'; // Syntax error
 
 Trying to **read** an *undeclared variable* results in a runtime error:
 
-```js
+```javascript
 var foo;
 console.log(bar); // ReferenceError: bar is not defined.
 ```
@@ -42,17 +42,19 @@ console.log(bar); // ReferenceError: bar is not defined.
 However, **writing** to an undeclared variable is valid by default. It will
 create an **implicit global variable** and should thus be avoided:
 
-```js
+```javascript
 function foo() {
   bar = 42;
 }
 foo();
-console.log(bar); // no error
+console.log(bar); // no errorr
 ```
 
-<div class="alert alert-info">
+<div class="callout primary">
+
   If code runs in **[strict mode][]**, assigning to an undeclared variable 
   throws an **error**.
+
 </div>
 
 [strict mode]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode

@@ -23,7 +23,7 @@ data type if they are of different data types. *Strict* comparison immediately
 returns `false` if both values *don't have the same type*.
 
 Examples:
-```js
+```javascript
 "42" == 42  // true
 "42" === 42 // false
 
@@ -34,7 +34,7 @@ Examples:
 
 Here are some of the surprises that come with type conversion:
 
-```js
+```javascript
 // comparing objects and primitives
 [1,2] == '1,2' // true
 [0] == false   // true
@@ -58,13 +58,15 @@ if (a == 0) {
 Have a look at [this table][comparison table] to get a quick overview of the 
 differences between `==` and `===`.
 
-<div class="alert alert-warning">
+<div class="callout warning">
+
 **You should *always* use strict comparison**, unless you
 explicitly want to make use of the type conversion (i.e. you know what you are
 doing).
 
 If you write an API, make it clear which data type it expects (e.g. through
 comments).
+
 </div>
 
 [comparison table]: https://dorey.github.io/JavaScript-Equality-Table/

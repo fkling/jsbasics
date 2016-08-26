@@ -1,6 +1,5 @@
 ---
 title: Resources
-chapter: Resources
 ---
 - [MDN JavaScript Guide][mdn], [Eloquent JavaScript][eloquent] &mdash; basic 
 JavaScript introduction.

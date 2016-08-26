@@ -15,5 +15,5 @@ Everything else that is not a value of the above types is an
 
 - **object**
 
-As we will see in the following slides, objects belong to different of kinds of
+As we will see in the following slides, objects belong to different kinds of
 "classes" of objects.

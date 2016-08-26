@@ -12,7 +12,7 @@ According to this definition, **every** function in JavaScript is a
 closure, because [every function has an (internal) reference to the
 environment][functions] it was created in. The simplest example is:
 
-```js
+```javascript
 var foo = 42;
 
 function bar() {
@@ -21,11 +21,13 @@ function bar() {
 ```
 Here the function `bar` has access to `foo`, which is defined outside of it.
 
-<div class="alert alert-warning">
-<strong>Important</strong>: The value of a free variable is determined when the
-function is <strong>executed</strong>, not when the function is
-<em>defined</em>. Read the previous sentence three times to make sure you really
+<div class="callout warning">
+
+**Important**: The value of a free variable is determined when the
+function is **executed**, not when the function is
+*defined*. Read the previous sentence three times to make sure you really
 understand what it implies.
+
 </div>
 
 [closures]: http://en.wikipedia.org/wiki/Closure_%28computer_programming%29

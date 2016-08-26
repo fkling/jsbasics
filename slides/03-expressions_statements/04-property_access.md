@@ -12,7 +12,7 @@ a variable. You can use any *expression* inside the brackets.
 
 Examples:
 
-```
+```javascript
 obj['test-field']; // test-field is not a valid identifier
 var field = 'test';
 obj[field];
@@ -27,7 +27,7 @@ notation, `a.0`.
 
 You can **assign to properties** by putting the member expression on the left
 hand side of an assignment expression:
-```
+```javascript
 obj.prop = value;
 ```
 
@@ -35,7 +35,7 @@ obj.prop = value;
 
 If you have nested objects/arrays, you simply use a valid property accessor
 repeatedly:
-```
+```javascript
 var obj = {foo: {bar: [42, 21]}};
 console.log(obj.foo.bar[0]); // which is evaluated as ((obj.foo).bar)[0]
 ```
@@ -45,5 +45,7 @@ console.log(obj.foo.bar[0]); // which is evaluated as ((obj.foo).bar)[0]
 Accessing a non existing property does not throw an error, it returns
 `undefined`:
 
-    var obj = {};
-    console.log(obj.foo);
+```javascript
+var obj = {};
+console.log(obj.foo);
+```

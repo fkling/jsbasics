@@ -8,7 +8,7 @@ function declarations and creates a binding for them in the functions scope.
 
 Thus, the example of the previous slide is equivalent to the following:
 
-```js
+```javascript
 function foo() {
    var bar, i, j;
 
@@ -22,7 +22,7 @@ function foo() {
    console.log(i);   // 10
    console.log(j);   // 9
  }
- ```
+```
 
 Note how all variable declarations are put at the top of the function. The
 *value* will still be assigned only when the execution reaches the line of the
@@ -31,7 +31,7 @@ assignment expression.
 One of the practical implications of the hoisting concept is *mutually recursive
 functions*. Consider the following example:
 
-```js
+```javascript
 function isEven(n) {
  if (n == 0) {
    return true;
@@ -49,7 +49,7 @@ function isOdd(n) {
   }
   return isEven(n - 1);
 }
- ```
+```
 
 To get more details on hoisting see [this article][hoisting].
 

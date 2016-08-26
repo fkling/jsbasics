@@ -1,20 +1,22 @@
 ---
+title: JavaScript Basics
 toc: Title
 chapter: Intro
 layout: Center
 style: |
-  #slide .Center-wrapper {
+  #exerslide-slide .Center-wrapper {
     text-align: left;
   }
-  #slide h1 {
+  #exerslide-slide h1 {
     color: #444;
     font-size: 400%;
     margin-bottom: 50px;
     text-align: center;
   }
+scale:
+  content_width: 39
+  column_width: 0.6
 ---
-# JavaScript Basics
-
 A quick introduction to basic and important concepts of JavaScript
 
 Use the arrow keys (**&larr;, &rarr;**) to navigate through the page.
@@ -25,11 +27,7 @@ You will need it for the exercises.
 
 ---
 
-### Contribute
+## Contribute
 
 Found a problem with style or content? Or do you have suggestions for improving
-the content?  
-Please [file an issue on GitHub][github].
-
-[developer tools]:  https://developers.google.com/chrome-developer-tools/docs/javascript-debugging
-[github]: https://github.com/fkling/jsbasics/issues
+the content?  Please [file an issue on GitHub][jsbasics-issues].

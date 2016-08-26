@@ -11,7 +11,7 @@ cumbersome. For that reason the next version of JavaScript (ECMAScript 6)
 [introduces a new syntax][classes].
 With the syntax, the example from the previous slide would look like
 
-```
+```javascript
 class Person {
   constructor(name) {
     this.name = name;

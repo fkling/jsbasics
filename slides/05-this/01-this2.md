@@ -1,13 +1,13 @@
 ---
-toc: this - another example
+toc: this - an example
 style: |
   h1 {
     text-align: center
   }
 ---
-# `this` - another example
+# `this` - an example
 
-```js
+```javascript
 function say() {
   console.log('My name is ' + this.name);
 }
@@ -28,7 +28,7 @@ say.call({name: 'Anonymous'}); // My name is Anonymous
 say(); // My names is undefined
 ```
 
-In this example we define a single a function that uses `this` internally. The
+In this example we define a single function that uses `this` internally. The
 function is then assigned to different objects as property. The output the
-function produces depends on on which object the function is called (*how* it is
+function produces depends on which object the function is called (*how* it is
 called).
