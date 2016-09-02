@@ -20,7 +20,6 @@ hr {
   border: 1px solid #ddd;
 }
 
-
 .button.secondary:focus,
 .button.secondary:hover {
   background-color: transparent;
@@ -36,8 +35,12 @@ hr {
   font-size: 0.9rem;
 }
 
-.BabelEditor .CodeMirror {
+.CodeMirror {
   height: auto;
+}
+
+pre > code {
+  line-height: 1.3em;
 }
 
 #exerslide-toc-list {
