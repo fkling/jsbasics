@@ -1,3 +1,8 @@
+@font-face {
+  font-family: mono;
+  src: url('./FreeMono.woff');
+}
+
 hr {
   border-color: #eee
 }
@@ -41,6 +46,18 @@ hr {
 
 pre > code {
   line-height: 1.3em;
+}
+
+#exerslide-slide .ascii-art {
+  margin: 15px 0;
+}
+
+#exerslide-slide .ascii-art > pre > code {
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-family: 'mono';
+  line-height: 100%;
 }
 
 #exerslide-toc-list {

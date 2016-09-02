@@ -25,3 +25,17 @@ console.log(bar); // logs "null"
 ```
 
 There are other native occurrence of `undefined` which we will mention later.
+
+<div class="callout primary">
+
+**Remember:** A variable that doesn't exist cannot be accessed at all (it will 
+throw a reference error). Instead of saying "the variable is undefined" we 
+rather say "the variable is not *declared*" to avoid confusion.
+
+```js
+var foo;
+console.log(foo); // logs `undefined`
+console.log(bar); // reference error
+```
+
+</div>

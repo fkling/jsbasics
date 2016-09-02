@@ -4,6 +4,11 @@ title: Booleans, numbers and strings
 
 The **Boolean** data type has two values, `true` and `false`.
 
+```js
+var foo = true;
+var bar = false;
+```
+
 ---
 **Numbers** are [double precision floating point][float] numbers, following the
 [IEEE 754 standard][ieee754]
@@ -26,7 +31,7 @@ occurs in JavaScript as well:
 0.1 + 0.2 // 0.30000000000000004
 ```
 
-The maximum integer that can be used without loss of precision is 
+The maximum integer value that can be used without loss of precision is 
 2<sup>53</sup>.
 
 ```javascript

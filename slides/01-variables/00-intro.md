@@ -16,6 +16,9 @@ var foo, bar, baz;
 var foo = 42, bar = 'baz', z;
 ```
 
+Variables that don't explicitly get assigned an initial value have the value 
+`undefined`.
+
 ---
 
 Valid characters for variable names include [a wide range of **unicode characters**](http://mathiasbynens.be/notes/javascript-identifiers).

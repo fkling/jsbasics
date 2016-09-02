@@ -101,9 +101,22 @@ import references from '!!json!yaml!../references.yml';
  */
 /* global __exerslide_slides__*/
 
+function extendMarkdown(md) {
+  md.use(require('markdown-it-container'), 'ascii', {
+    render(tokens, index) {
+      const token = tokens[index];
+      if (token.nesting === 1) {
+        return '<div aria-hidden="true" class="ascii-art">';
+      }
+      return '</div>';
+    },
+  });
+}
+
 present({
   masterLayout: MasterLayout,
   slideLayout: SlideLayout,
   references,
   slides: __exerslide_slides__,
+  'markdown-converter': extendMarkdown,
 });
