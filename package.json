@@ -5,15 +5,15 @@
   "private": true,
   "dependencies": {
     "codemirror": "^5.7.0",
-    "exerslide": "~1.0.0",
-    "exerslide-plugin-center-layout": "^1.0.0",
-    "exerslide-plugin-column-layout": "^1.0.0",
+    "exerslide": "~1.1.0",
+    "exerslide-plugin-bulletlist-layout": "^1.1.0",
+    "exerslide-plugin-center-layout": "^1.1.0",
+    "exerslide-plugin-column-layout": "^1.1.0",
     "exerslide-plugin-html-converter": "^1.0.0",
-    "exerslide-plugin-javascriptexercise-layout": "^1.0.0",
-    "exerslide-plugin-markdown-converter": "^1.0.0",
+    "exerslide-plugin-markdown-converter": "^1.1.0",
     "font-awesome": "^4.4.0",
     "foundation-sites": "^6.1.2",
-    "markdown-it-container": "^2.0.0",
+   "markdown-it-container": "^2.0.0",
     "react": "^15.0.0",
     "react-dom": "^15.0.0"
   },
@@ -29,10 +29,14 @@
     "css-loader": "^0.23.0",
     "extract-text-webpack-plugin": "^0.9.1",
     "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
     "is-text-path": "^1.0.1",
     "json-loader": "^0.5.4",
+   "raw-loader": "^0.5.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.9",
     "yaml-loader": "^0.4.0"
-  }
+  },
+  "exerslide": "@exerslide-file-hash 6a9f9d4099dad6c1f66c14dee6b86af8"
 }

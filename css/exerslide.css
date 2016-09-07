@@ -1,9 +1,17 @@
+/* @remove-on-copy-start */
 /*
  * Copyright (c) 2015-present, Facebook, Inc.
  * All rights reserved.
  *
  * This source code is licensed under the license found in the LICENSE file in
  * the root directory of this source tree.
+ */
+/* @remove-on-copy-end */
+
+/*
+ * This hash helps exerslide to determine whether the file needs to be updated
+ * or not. Please don't remove it.
+ * @exerslide-file-hash 11d720c0b82bd803455a897e37e2c81f
  */
 
 /**
@@ -71,16 +79,16 @@ body {
 
 /* CODE */
 
-#exerslide-slide  code,
-#exerslide-slide p > code {
+.exerslide-slide  code,
+.exerslide-slide p > code {
   background: #f9f9f9;
 }
 
-#exerslide-slide pre + :not(hr) {
+.exerslide-slide pre + :not(hr) {
   margin-top: 1rem;
 }
 
-#exerslide-slide pre > code {
+.exerslide-slide pre > code {
   display: block;
   font-size: 0.9rem;
   overflow-x: auto;
@@ -89,7 +97,7 @@ body {
 
 /* MAIN CONTENT */
 
-#exerslide-slide {
+.exerslide-slide {
   align-items: center;
   box-sizing: border-box;
   display: flex;
@@ -101,9 +109,9 @@ body {
   width: 100%;
 }
 
-#exerslide-slide > * {
+.exerslide-slide > * {
   display: flex;
-  flex: 1;
+  flex: 1 0 auto;
   flex-direction: column;
   line-height: 1.6;
   /**
@@ -118,58 +126,58 @@ body {
   max-width: 45em;
   /**
    * This ensures that slides with little content (i.e. without a full line of
-   * content) are still positioned correclty.
+   * content) are still positioned correctly.
    */
   width: 100%;
 }
 
 
-#exerslide-slide h1,
-#exerslide-slide h2,
-#exerslide-slide h3,
-#exerslide-slide h4 {
+.exerslide-slide h1,
+.exerslide-slide h2,
+.exerslide-slide h3,
+.exerslide-slide h4 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-#exerslide-slide h1,
-#exerslide-slide-title {
+.exerslide-slide h1,
+.exerslide-slide-title {
   margin-top: 0;
   flex-shrink: 0;
   text-align: center;
 }
 
-#exerslide-slide h1:focus,
-#exerslide-slide-title:focus {
+.exerslide-slide h1:focus,
+.exerslide-slide-title:focus {
   outline: none;
 }
 
-#exerslide-slide h1 {
+.exerslide-slide h1 {
   font-size: 1.8rem;
 }
 
-#exerslide-slide h2 {
+.exerslide-slide h2 {
   font-size: 1.4rem;
 }
 
-#exerslide-slide h3 {
+.exerslide-slide h3 {
   font-size: 1.2rem;
 }
 
-#exerslide-slide h4 {
+.exerslide-slide h4 {
   font-size: 1.1rem;
 }
 
-#exerslide-slide h2 + p,
-#exerslide-slide h3 + p,
-#exerslide-slide h4 + p {
+.exerslide-slide h2 + p,
+.exerslide-slide h3 + p,
+.exerslide-slide h4 + p {
   margin-top: 0.3rem;
 }
 
 /**
  * Responsive images.
  */
-#exerslide-slide img {
+.exerslide-slide img {
   max-width: 100%;
 }
 

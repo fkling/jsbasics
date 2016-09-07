@@ -7,11 +7,11 @@ hr {
   border-color: #eee
 }
 
-#exerslide-slide h1 {
+.exerslide-slide h1 {
   margin-bottom: 1rem;
 }
 
-#exerslide-slide p {
+.exerslide-slide p {
   line-height: 1.5;
 }
 
@@ -31,6 +31,7 @@ hr {
   color: black;
 }
 
+/* Checkmarks in table of contents for completed exercises */
 .exerslide-toc-entry.JavascriptExercise.completed:after {
   font-family: FontAwesome;
   content: "\F00C";
@@ -48,11 +49,12 @@ pre > code {
   line-height: 1.3em;
 }
 
-#exerslide-slide .ascii-art {
+.exerslide-slide .ascii-art {
+  padding: 10px;
   margin: 15px 0;
 }
 
-#exerslide-slide .ascii-art > pre > code {
+.exerslide-slide .ascii-art > pre > code {
   text-align: center;
   border: none;
   background-color: transparent;
@@ -60,11 +62,15 @@ pre > code {
   line-height: 100%;
 }
 
-#exerslide-toc-list {
-  font-size: 90%;
+.exerslide-toc-list {
+  font-size: 80%;
 }
 
 .exerslide-toc-container {
   max-width: 30%;
-  min-width: 20em;
+  min-width: 16em;
+}
+
+a > code {
+  color: #2199e8;
 }
