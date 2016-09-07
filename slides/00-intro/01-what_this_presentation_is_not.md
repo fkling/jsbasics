@@ -2,10 +2,10 @@
 title: What this presentation is not about
 layout: Center
 style: |
-  #exerslide-slide .Center-wrapper {
+  .exerslide-slide .Center-wrapper {
     text-align: left;
   }
-  #exerslide-slide h1 {
+  .exerslide-slide h1 {
     text-align: center;
   }
 ---

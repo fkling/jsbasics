@@ -50,7 +50,7 @@ function foo() {
   bar = 42;
 }
 foo();
-console.log(bar); // no errorr
+console.log(bar); // no error
 ```
 
 <div class="callout primary">

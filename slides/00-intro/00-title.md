@@ -4,10 +4,10 @@ toc: Title
 chapter: Intro
 layout: Center
 style: |
-  #exerslide-slide .Center-wrapper {
+  .exerslide-slide .Center-wrapper {
     text-align: left;
   }
-  #exerslide-slide h1 {
+  .exerslide-slide h1 {
     color: #444;
     font-size: 400%;
     margin-bottom: 50px;
