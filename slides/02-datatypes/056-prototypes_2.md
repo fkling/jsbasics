@@ -69,3 +69,12 @@ var user = {name: 'Tom'};
 user.toString()
 // "[object Object]"
 ```
+
+<div class="callout primary">
+
+**Note**: *Assignments* to properties will (almost) always
+create or update a property on object itself, even if a property with the same
+name already exists in the prototype chain. The property in the prototype
+chain is then *shadowed*, similar to variable shadowing in scopes.
+
+</div>

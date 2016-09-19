@@ -2,8 +2,8 @@
 title: Comparison operators
 ---
 
-As already established at the beginning, JavaScript is **dynamically** typed. It
-also performs **type conversion**, if a specific data type is expected and not
+As already established at the beginning, JavaScript is *dynamically typed*. It
+also performs *type conversion*, if a specific data type is expected and not
 provided. For example in `a * b`, the values of `a` and `b` will be converted
 to numbers first.
 

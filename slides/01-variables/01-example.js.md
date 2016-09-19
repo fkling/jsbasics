@@ -4,7 +4,7 @@ layout_data:
   description: |
     Create a local variable with name `foo` and value `42`.
     Use `log(foo)` to log the value of `foo`.
-    Remember to open your browser's *develeoper tools* to view the log output.
+    Remember to open your browser's *developer tools* to view the log output.
   assertion: |
     assert(
       /var foo\s*=.+;?$/m.test(source),

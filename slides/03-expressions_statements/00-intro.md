@@ -31,6 +31,18 @@ b`
 JavaScript also has **comparison** operators and **property accessors**,
 both of which are explained in more detail in the next slides.
 
+<div class="callout secondary">
+
+<i class="fa fa-info-circle" aria-hidden="true"></i> **ES2016**
+
+ES2016 introduces the *[exponentiation operator][pow]*:
+
+```js
+var result = 5 ** 2; // equivalent to Math.pow(5, 2)
+```
+
+</div>
+
 [assignment]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators
 [arithmetic]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
 [boolean]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators

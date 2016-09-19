@@ -30,6 +30,7 @@ these would be the values of `this` if called in those specific ways:
 
 ```javascript
 // "normal call": global object / window in browsers
+//                undefined in strict mode
 foo();
 
 // as object "method": to the object

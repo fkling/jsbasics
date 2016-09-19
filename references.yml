@@ -3,3 +3,11 @@ jsbasics-issues: https://github.com/fkling/jsbasics/issues
 
 css: https://developer.mozilla.org/en-US/docs/Web/CSS
 dom: https://developer.mozilla.org/en-US/docs/DOM
+es5: http://www.ecma-international.org/ecma-262/5.1/
+ES2015: http://www.ecma-international.org/ecma-262/6.0/
+symbol: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
+pow: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Exponentiation_(**)
+computed properties: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#Computed_property_names
+forof: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+iterables: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols
+block scope: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Scoping_rules_2

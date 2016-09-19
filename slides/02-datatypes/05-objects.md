@@ -1,12 +1,13 @@
 ---
 title: Objects
 ---
-Everything else besides primitive data type values is an **object**.
+Everything else besides primitive data type values is an *object*.
 
-Objects are **key-value** stores, like hash tables. But unlike hash tables, only
-strings can be used as keys. The "keys" of an object are called *properties*.
+Objects are *key-value* stores, more specifically *stringkey-value* stores. The 
+"keys" of an object are called *properties*.
 
-The syntax to create a plain object is `{key: value, ...}`. For example:
+The syntax to create a plain object is `{key: value, ...}`, which is called an 
+object literal.  For example:
 
 ```javascript
 var obj = {
@@ -14,6 +15,52 @@ var obj = {
   baz: 42
 };
 ```
+
+Note that the above example doesn't use *quotation marks* around the property 
+names.  In an object literal, quotation marks can be be omitted if the property 
+name would also be a *valid variable name*. If not, they need to be quoted. 
+*Number literals* are valid an object literal as  well.
+
+Here are some more examples of valid and invalid property names in object 
+literals:
+
+```js
+var obj = {
+  foo: 0,        // valid, could be variable name
+  'bar': 0,      // string literals are always valid
+  123: 0,        // number literals are always valid
+  1.5: 0,        // ^
+  foo-bar: 0,    // invalid, would not be a valid variable name
+  'foo-bar': 0,  // string literals are alwaus valid
+};
+```
+
+<div class="callout warning">
+
+**Important:** No matter which value or syntax you use for a property name, the 
+value will always be converted to a **string**. 
+
+</div>
+
+<div class="callout secondary">
+
+<i class="fa fa-info-circle" aria-hidden="true"></i> **ES2015**
+
+ES2015 adds two extensions to object values and object literals:
+
+- *Symbols* are can be used as property names. They are not converted to 
+strings.
+
+- Object literals can contain *[computed property names][computed properties]*:
+    ```js
+    var foo = 42;
+    var obj = {
+      [foo]: 0,
+    };
+    // creates {42: 0}
+    ```
+
+</div>
 
 ## References
 

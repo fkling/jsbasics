@@ -1,10 +1,11 @@
 ---
 title: Constructor functions
+chapter: Constructors/Classes
 ---
-Even though JavaScript technically doesn't have classes, it has something
-similar: **constructor functions**.
+JavaScript doesn't have classes like class-based OOP languages have, but it has 
+something similar: *constructor functions*.
 
-Constructor functions are functions which **construct objects**. Technically
+Constructor functions are functions which *construct objects*. Technically
 *every* function can be used as a constructor function, it just has to be 
 called with the [`new` operator][new]:
 
@@ -38,14 +39,5 @@ console.log(felix.sayName());
 
 Given the example above, use `console.dir(felix);` to get a better understanding
 of the structure of the object (including it's prototype chain).
-
-<div class="callout primary">
-
-**Note**: *Assignments* to properties will (almost) always
-create or update a property on object itself, even if a property with the same
-name already exists in the prototype chain. The property in the prototype
-chain is then *shadowed*, similar to variable shadowing in scopes.
-
-</div>
 
 [new]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new

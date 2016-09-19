@@ -10,6 +10,8 @@ focus on advanced concepts and technical details
 - [ECMAScript 5 specification][ecma] &mdash; only if you *really* like
   JavaScript.
 
+- [ECMAScript 2015 specification][ES2015]
+
 - [quirksmode.org - JavaScript][quirksmode] &mdash; basic introduction and
   excellent explanation of event handling.
 

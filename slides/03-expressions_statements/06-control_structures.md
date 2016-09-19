@@ -23,3 +23,22 @@ for (var prop in obj) {
 
 `prop` is a variable containing the property *name*. You can use bracket
 notation to access the property values.
+
+<div class="callout secondary">
+
+<i class="fa fa-info-circle" aria-hidden="true"></i> **ES2015**
+
+ES2015 introduces [`for/of`][forof] statements for iterating over 
+*[iterables][]*:
+
+```js
+var arr = [1,2,3];
+for (var v of arr) {
+  console.log(v);
+}
+// 1
+// 2
+// 3
+```
+
+</div>
