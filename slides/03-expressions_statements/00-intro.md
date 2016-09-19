@@ -8,22 +8,36 @@ unary, and written in infix notation, i.e. `a op b`.
 
 Here is list of typical operations:
 
-- **Assignment**: `foo = bar`, assigns the value of the <abbr title="Left Hand 
-Side">lhs</abbr> to the <abbr title="Right Hand Side">shs</abbr>.
+- **[Assignment][]**: `a = b`, `a += b`, `a |= b`, and more
 
-- **Math**: `a + b`, `a - b`, `a * b`, `a / b`
+- **[Arithmetic][]**: `a + b`, `a - b`, `a * b`, `a / b`, `a % b`, `+a`, `-a`
 
 - **String concatenation:** `a + b`
 
-- **Boolean:** `a && b`, `a || b`, `!a`
+- **[Boolean][]:** `a && b`, `a || b`, `!a`
 
-- **Bitwise:** `a & b`, `a | b`, `a ^ b`
+- **[Bitwise][]:** `a & b`, `a | b`, `a ^ b`, `~a`, `a << b`, `a >> b`, `a >>> 
+b`
 
 - **Function calls**: `foo()`, `foo(a, b, c)`
 
-- **Shorthands**: `a += 1`, `i++`
+- **Increment/Decrement**: `a++`, `++a`, `a--`, `--a`
 
-- **Conditional**: `foo ? bar : baz`
+- **[Conditional][]**: `foo ? bar : baz`
 
-JavaScript also has *comparison* operators and *property accessors*,
+- Others: [`in`][in], [`instanceof`][instanceof], [`typeof`][typeof], 
+[`new`][new]
+
+JavaScript also has **comparison** operators and **property accessors**,
 both of which are explained in more detail in the next slides.
+
+[assignment]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Assignment_Operators
+[arithmetic]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
+[boolean]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators
+[bitwise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators
+[conditional]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+
+[in]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in
+[instanceof]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
+[typeof]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+[new]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
