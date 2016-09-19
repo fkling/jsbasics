@@ -10,6 +10,7 @@
     "exerslide-plugin-center-layout": "^1.1.0",
     "exerslide-plugin-column-layout": "^1.1.0",
     "exerslide-plugin-html-converter": "^1.0.0",
+    "exerslide-plugin-javascriptexercise-layout": "^1.1.0",
     "exerslide-plugin-markdown-converter": "^1.1.0",
     "font-awesome": "^4.4.0",
     "foundation-sites": "^6.1.2",
