@@ -107,6 +107,17 @@ import references from '!!json!yaml!../references.yml';
  */
 /* global __exerslide_slides__*/
 
+import LooseComparison from './LooseComparison';
+
+import React from 'react';
+import reactFence from 'exerslide-plugin-markdown-converter/reactFence';
+use(reactFence, (tag, content) => {
+  switch (tag) {
+    case 'comparison':
+      return <LooseComparison examples={JSON.parse(content)} />;
+  }
+});
+
 function extendMarkdown(md) {
   md.use(require('markdown-it-container'), 'ascii', {
     render(tokens, index) {

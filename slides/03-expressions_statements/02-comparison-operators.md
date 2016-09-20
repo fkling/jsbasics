@@ -32,31 +32,29 @@ Examples:
 [1,2] === [1,2] // false
 ```
 
-Here are some of the surprises that come with type conversion:
+The following tool visualizes the steps of the *[abstract equality 
+comparison](http://www.ecma-international.org/ecma-262/7.0/#sec-abstract-equality-comparison)* 
+algorithm, which is used for loose comparison.  
 
-```javascript
-// comparing objects and primitives
-[1,2] == '1,2' // true
-[0] == false   // true
+You can select some predefined examples and see which steps are performed 
+during the comparison. The results will probably surprise you. You can also 
+provide your own values.
 
-// Transitivity
-"0" == false   // true
-"\n" == false  // true
-"0" == "\n"    // false
+~~~react comparison
+[
+  ["[1,2]", "'1,2'"],
+  ["[0]", "false"],
+  ["'\\n'", "false"],
+  ["'0XA19'", "2585"]
+]
+~~~
 
-// Others
-"0XA19" == 2585 // true
-"0XA19" > 16    // true
-"0XA19" > "16"  // false
+Also have a look at [this table][comparison table] to get a quick overview of 
+the differences between `==` and `===`.
 
-var a = "0";
-if (a == 0) {
-  a += 1;  // a = "01"
-}
-```
-
-Have a look at [this table][comparison table] to get a quick overview of the 
-differences between `==` and `===`.
+The above examples hopefully showed you that loose comparison isn't that 
+"simple" and it's not always clear what ends up being compared in the end. For 
+that reason you should follow this advice:
 
 <div class="callout warning">
 

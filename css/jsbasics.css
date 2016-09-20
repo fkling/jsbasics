@@ -3,8 +3,16 @@
   src: url('./FreeMono.woff');
 }
 
+code {
+  color: inherit;
+}
+
 hr {
   border-color: #eee
+}
+
+summary:focus {
+  outline: none;
 }
 
 .exerslide-slide h1 {
