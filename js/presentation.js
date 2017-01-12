@@ -135,5 +135,5 @@ present({
   slideLayout: SlideLayout,
   references,
   slides: __exerslide_slides__,
-'markdown-converter': extendMarkdown,
+  'markdown-converter': extendMarkdown,
 });

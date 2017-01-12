@@ -111,7 +111,7 @@ module.exports = {
         test: /\.css$/,
         loader: ExtractTextPlugin.extract(
           'style',
-          'css?importLoaders=1!autoprefixer?{"browsers": "> 1%"}'
+          'css?importLoaders=1!postcss'
         ),
       },
       {
