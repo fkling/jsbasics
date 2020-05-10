@@ -19,7 +19,7 @@ var obj = {
 Note that the above example doesn't use *quotation marks* around the property 
 names.  In an object literal, quotation marks can be be omitted if the property 
 name would also be a *valid variable name*. If not, they need to be quoted. 
-*Number literals* are valid an object literal as  well.
+*Number literals* are valid in an object literal as well.
 
 Here are some more examples of valid and invalid property names in object 
 literals:
@@ -31,7 +31,7 @@ var obj = {
   123: 0,        // number literals are always valid
   1.5: 0,        // ^
   foo-bar: 0,    // invalid, would not be a valid variable name
-  'foo-bar': 0,  // string literals are alwaus valid
+  'foo-bar': 0,  // string literals are always valid
 };
 ```
 
@@ -48,7 +48,7 @@ value will always be converted to a **string**.
 
 ES2015 adds two extensions to object values and object literals:
 
-- *Symbols* are can be used as property names. They are not converted to 
+- *Symbols* can be used as property names. They are not converted to 
 strings.
 
 - Object literals can contain *[computed property names][computed properties]*:
