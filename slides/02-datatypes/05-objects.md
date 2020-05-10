@@ -19,7 +19,7 @@ var obj = {
 Note that the above example doesn't use *quotation marks* around the property 
 names.  In an object literal, quotation marks can be be omitted if the property 
 name would also be a *valid variable name*. If not, they need to be quoted. 
-*Number literals* are valid an object literal as  well.
+*Number literals* are valid in an object literal as well.
 
 Here are some more examples of valid and invalid property names in object 
 literals:
