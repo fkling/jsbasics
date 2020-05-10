@@ -48,7 +48,7 @@ value will always be converted to a **string**.
 
 ES2015 adds two extensions to object values and object literals:
 
-- *Symbols* are can be used as property names. They are not converted to 
+- *Symbols* can be used as property names. They are not converted to 
 strings.
 
 - Object literals can contain *[computed property names][computed properties]*:
