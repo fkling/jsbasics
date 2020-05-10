@@ -31,7 +31,7 @@ var obj = {
   123: 0,        // number literals are always valid
   1.5: 0,        // ^
   foo-bar: 0,    // invalid, would not be a valid variable name
-  'foo-bar': 0,  // string literals are alwaus valid
+  'foo-bar': 0,  // string literals are always valid
 };
 ```
 
