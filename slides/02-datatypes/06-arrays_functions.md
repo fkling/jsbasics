@@ -52,7 +52,7 @@ There are other ways to create functions, which will be explained later.
 
 <div class="callout">
 
-The most important implication of functions being objects is that "work" just 
+The most important implication of functions being objects is that they "work" just 
 like any other value. Functions can be *passed to* functions and *returned 
 from* functions, allowing to creation of **higher-order functions**.
 
